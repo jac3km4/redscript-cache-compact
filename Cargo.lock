@@ -149,7 +149,7 @@ dependencies = [
 [[package]]
 name = "redscript-io"
 version = "1.0.0-preview6"
-source = "git+https://github.com/jac3km4/redscript?rev=v1.0.0-preview6#bbebb2f8d4bed1d86d6f3eafc5c594346359179e"
+source = "git+https://github.com/jac3km4/redscript?rev=dfc40a2#dfc40a26fd366f2bccd2e226ef24594df91042e6"
 dependencies = [
  "bitfield-struct",
  "byte",

@@ -11,5 +11,5 @@ vmap = "0.6"
 
 [dependencies.redscript-io]
 git = "https://github.com/jac3km4/redscript"
-rev = "v1.0.0-preview6"
+rev = "dfc40a2"
 features = ["mmap"]

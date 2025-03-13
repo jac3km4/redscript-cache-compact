@@ -30,6 +30,10 @@ fn main() -> anyhow::Result<()> {
         }
     }
 
+    bundle.strings_mut().clear();
+    bundle.resources_mut().clear();
+    bundle.tdb_ids_mut().clear();
+
     bundle.into_writeable().save(opts.output)?;
     Ok(())
 }
